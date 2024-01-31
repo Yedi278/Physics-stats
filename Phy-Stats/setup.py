@@ -14,18 +14,17 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="medium-multiply",
-    version="0.1.0",
-    description="Demo library",
+    name="Phy-Stats",
+    version="0.0.1",
+    description="Physics fitting functions library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://medium-multiply.readthedocs.io/",
-    author="Joffrey Bienvenu",
-    author_email="example@email.com",
-    license="MIT",
+    url="",
+    author="Yehan Edirisinghe",
+    author_email="yehan278@gmail.com",
+    license="None",
     classifiers=[
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
@@ -34,7 +33,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["medium_multiply"],
+    packages=["Phy-Stats"],
     include_package_data=True,
-    install_requires=["numpy"]
+    install_requires=["numpy,scipy,iminuit"]
 )
