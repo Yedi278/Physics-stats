@@ -35,5 +35,5 @@ setup(
     ],
     packages=["Phy-Stats"],
     include_package_data=True,
-    install_requires=["numpy,scipy,iminuit"]
+    install_requires=["numpy","scipy","iminuit"]
 )
